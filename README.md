@@ -5,14 +5,29 @@ Explain the purpose of this analysis.
 Using credit card credit dataset from LendingClub, different techniques have been utilized to emplot different techniques to train and evaluate models to assess credit risk. Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. 
 
 
+
 ## Results: 
-Credit Risck Resampling
+### Credit Risk Resampling
 - Oversampling - In the Oversampling test the Precision was 99%, the Recall was 59% and the f1 score was 73%.
+![Oversampling Final Analysis](https://github.com/mmdemars/Credit_Risk_Analysis/blob/main/images/cra_oversampling.png)
+
 - SMOTE Oversampling - In the SMOTE Oversampling test the Precision was 99%, the Recall was 69%, and the f1 score was 81%.
+![SMOTE Oversampling Fnial Analysis](https://github.com/mmdemars/Credit_Risk_Analysis/blob/main/images/cra_SMOTEover.png)
+
 - Undersampling - In the Undersampling test, the Precision was 99%, the Recall was 40% and the f1 score was 56%.
+![Undersampling Final Analysis](https://github.com/mmdemars/Credit_Risk_Analysis/blob/main/images/cra_oversampling.png)
+
 - Combination Sampling - In the Combination Sampling test, the Precision was 99%, the Recall was 57%, and the f1 score was 72%.
+![Combination Resampling Final Analysis](https://github.com/mmdemars/Credit_Risk_Analysis/blob/main/images/cra_combo.png)
+
+
+### Credit Risk Ensemble
 - Balanced Random Forest Classifier - In the BRFC test, the Precision was 99%, the Recall was 87%, and the f1 score was 93%.
--Easy Ensemble AdaBoost Classifier - if the AdaBoost Classifier, the Precision was 99%, the Recall was 94%, and the f1 score was 97%.
+![BRFC Final Analysis](https://github.com/mmdemars/Credit_Risk_Analysis/blob/main/images/cre_brfc.png)
+
+- Easy Ensemble AdaBoost Classifier - if the AdaBoost Classifier, the Precision was 99%, the Recall was 94%, and the f1 score was 97%.
+![EEAdaBoost Final Analysis](https://github.com/mmdemars/Credit_Risk_Analysis/blob/main/images/cre_adaboost.png)
+
 
 
 ## Summary: 
