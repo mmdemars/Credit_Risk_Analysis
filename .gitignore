@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+emsemble_scratch.ipynb
+
 
 # C extensions
 *.so
